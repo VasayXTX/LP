@@ -1,4 +1,3 @@
-#!/usr/bin/swipl -g run_tests,halt -s
 % Calc N-element's of Fibonacci numbers
 
 % Recursive implementation
@@ -38,3 +37,4 @@ test(test06) :- fib_it(1, 1).
 test(test07) :- fib_it(3, 2).
 test(test08, [true(F =:= 8)]) :- fib_it(6, F).
 :- end_tests(fib_it).
+

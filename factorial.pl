@@ -1,4 +1,3 @@
-#!/usr/bin/swipl -g run_tests,halt -s
 % Program to calc factorial
 
 % Recursive implementation
@@ -27,3 +26,4 @@ test(test06) :- factorial_it(1, 1).
 test(test07) :- factorial_it(4, 24).
 test(test08, [true(F =:= 120)]) :- factorial_it(5, F).
 :- end_tests(factorial_it).
+
